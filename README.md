@@ -1,14 +1,21 @@
 # Dotfiles
-My Dotfiles Setup
+
+
 # Installation
-First :
-Install Homebrew : https://brew.sh
-Install NVM : https://github.com/nvm-sh/nvm
-install SpaceHip Prompt : https://github.com/denysdovhan/spaceship-prompt/
-Second : 
-git clone https://github.com/xhaythemx/Dotfiles.git && cd dotfiles && source bootstrap.sh
+
+## First :
+
+ Install Homebrew : [Homebrew](https://brew.sh)
+ Install NVM :  [Node Package Manager](https://github.com/nvm-sh/nvm)
+  install Spaceship Prompt : [Spaceship Prompt](https://github.com/denysdovhan/spaceship-prompt/)
+
+## Second :
+
+    git clone  [https://github.com/xhaythemx/Dotfiles.git](https://github.com/xhaythemx/Dotfiles.git)  && cd dotfiles && source bootstrap.sh
 
 # Terminal
-I use SpaceShip prompt
-Color Scheme : Snazzy
-Font : Fura Code Regular Nerd - 14pt
+
+**Prompt** : Spaceship
+**Color Scheme**  : Snazzy
+ **Font** : Fura Code Regular Nerd - 14pt
+ 
