@@ -20,7 +20,7 @@ Create a folder under ~ called Projects
     
 Then run this 
 
-    git clone https://github.com/xhaythemx/Dotfiles.git  && cd dotfiles && source bootstrap.sh
+    git clone https://github.com/xhaythemx/Dotfiles.git  && cd Dotfiles && source bootstrap.sh
 
 # Terminal
 
