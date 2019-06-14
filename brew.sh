@@ -1,3 +1,13 @@
+#zsh
+#zsh-syntax-highlighting
+#cmatrix
+#cowsay
+#fortune
+#lolcat
+#neofetch
+#nmap
+#tree
+
 brew install zsh
 brew install zsh-syntax-highlighting
 brew install cmatrix
