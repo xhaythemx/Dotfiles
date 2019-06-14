@@ -14,6 +14,10 @@ For MacOs Users Only
 
 ## Second :
 
+Create a folder under ~ called Projects
+
+    mkdir ~/Projects & cd ~/Projects
+
     git clone https://github.com/xhaythemx/Dotfiles.git  && cd dotfiles && source bootstrap.sh
 
 # Terminal
