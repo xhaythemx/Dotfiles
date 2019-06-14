@@ -23,7 +23,7 @@ For MacOs Users Only
  
 # Screenshot
 
-![Screenshot 1](https://imgur.com/E28aw71)  
+![Screenshot 1](https://i.imgur.com/E28aw71.png)  
 
-![Screenshot 2](https://imgur.com/rSHkF2X)  
+![Screenshot 2](https://i.imgur.com/rSHkF2X.png)  
 
