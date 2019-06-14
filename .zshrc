@@ -125,90 +125,13 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 fortune chucknorris | cowsay -f small | lolcat
 
 
-
-
-
-
-alias change='cash 100 eur tnd'
-alias showFiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hideFiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-alias e="((sleep 1; killall cmatrix; sleep 1; osascript -e 'quit app "Terminal"') &); cmatrix; exit"
-alias c='clear'
-alias hideDesktop='defaults write com.apple.finder CreateDesktop false && killall Finder'
-alias showDesktop='defaults write com.apple.finder CreateDesktop true && killall Finder'
-alias t='tree -F -L 1 -a'
-alias up='upgrade_oh_my_zsh'
-alias nodeup='nvm install node --latest-npm --reinstall-packages-from=node'
-alias npmup='npm update -g'
-alias create='npx create-react-app'
-alias prettier='npm install --save-dev --save-exact prettier'
+source ~/Projects/Dotfiles/.aliases
+source ~/Projects/Dotfiles/.functions
 
 
 
 
 
-
-
-function update() {
-  echo $fg[cyan]Update Started $fg[white]at$fg[yellow] $(date "+%H:%M:%S") $fg[white]
-  echo $fg[cyan]Updating Homebrew\ ... $fg[white]
-    brew update
-    brew upgrade
-    brew cask upgrade
-    brew cleanup
-    brew doctor
-    echo $fg[cyan]Updating NVM\ ... $fg[white]
-    nvmup
-    echo $fg[cyan]Updating Node\ ... $fg[white]
-    nodeup
-    echo $fg[cyan]Updating NPM\ ... $fg[white]
-    npmup
-    nyan
- 
-}
-
-function nvmup() {
-  
-  cd ~/.nvm
-  git fetch --tags origin
-  git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`
-  source nvm.sh
-  cd 
-  
-}
-
-
-
-
-
-function nyan() {
-  RED="$(tput setaf 1)"
-  GREEN="$(tput setaf 2)"
-  YELLOW="$(tput setaf 3)"
-  CYAN="$(tput setaf 6)"
-  WHITE="$(tput setaf 7)"
-  BOLD="$(tput bold)"
-  NOCOLOR="$(tput sgr0)"
-
-  echo
-  echo -en $RED'-_-_-_-_-_-_-_'
-  echo -e $NOCOLOR$BOLD$WHITE',------,'$NOCOLOR
-  echo -en $YELLOW$WHIT'_-_-_-_-_-_-_-'
-  echo -e $NOCOLOR$BOLD$WHITE'|   /\_/\\'$NOCOLOR
-  echo -en $GREEN'-_-_-_-_-_-_-'
-  echo -e $NOCOLOR$BOLD$WHITE'~|__( ^ .^)'$NOCOLOR
-  echo -en $CYAN'-_-_-_-_-_-_-'
-  echo -e $NOCOLOR$BOLD$WHITE'""  ""'$NOCOLOR
-  echo
-
- 
-}
-
-function acp() {
-  git add .
-  git commit -m "$1"
-  git push
-}
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm

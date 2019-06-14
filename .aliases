@@ -1,0 +1,13 @@
+alias change='cash 100 eur tnd'
+alias showFiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hideFiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+alias e="((sleep 1; killall cmatrix; sleep 1; osascript -e 'quit app "Terminal"') &); cmatrix; exit"
+alias c='clear'
+alias hideDesktop='defaults write com.apple.finder CreateDesktop false && killall Finder'
+alias showDesktop='defaults write com.apple.finder CreateDesktop true && killall Finder'
+alias t='tree -F -L 1 -a'
+alias up='upgrade_oh_my_zsh'
+alias nodeup='nvm install node --latest-npm --reinstall-packages-from=node'
+alias npmup='npm update -g'
+alias create='npx create-react-app'
+alias prettier='npm install --save-dev --save-exact prettier'
