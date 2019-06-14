@@ -1,4 +1,4 @@
-#
+#Disables the system login message
 touch ~/.hushlogin
 
 #install the Last version of Node 
