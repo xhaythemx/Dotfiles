@@ -1,3 +1,5 @@
+
+
 # Dotfiles
 For MacOs Users Only  
 
@@ -19,3 +21,9 @@ For MacOs Users Only
 **Color Scheme**  : Snazzy  
  **Font** : Fura Code Regular Nerd - 14pt  
  
+# Screenshot
+
+![Screenshot 1](https://imgur.com/E28aw71)  
+
+![Screenshot 2](https://imgur.com/rSHkF2X)  
+
