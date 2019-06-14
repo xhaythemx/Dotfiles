@@ -11,7 +11,7 @@
 
 ## Second :
 
-    git clone  [https://github.com/xhaythemx/Dotfiles.git](https://github.com/xhaythemx/Dotfiles.git)  && cd dotfiles && source bootstrap.sh
+    git clone https://github.com/xhaythemx/Dotfiles.git  && cd dotfiles && source bootstrap.sh
 
 # Terminal
 
