@@ -15,7 +15,7 @@
 
 # Terminal
 
-**Prompt** : Spaceship
-**Color Scheme**  : Snazzy
- **Font** : Fura Code Regular Nerd - 14pt
+**Prompt** : Spaceship  
+**Color Scheme**  : Snazzy  
+ **Font** : Fura Code Regular Nerd - 14pt  
  
