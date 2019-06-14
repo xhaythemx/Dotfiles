@@ -16,7 +16,7 @@ For MacOs Users Only
 
 Create a folder under ~ called Projects
 
-    mkdir ~/Projects & cd ~/Projects
+    mkdir ~/Projects && cd ~/Projects
     
 Then run this 
 
