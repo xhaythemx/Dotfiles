@@ -56,3 +56,7 @@ function acp() {
   git commit -m "$1"
   git push
 }
+
+function mkd() {
+	mkdir -p "$@" && cd "$_";
+}
