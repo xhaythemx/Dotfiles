@@ -1,5 +1,5 @@
 # Dotfiles
-
+For MacOs Users Only  
 
 # Installation
 
