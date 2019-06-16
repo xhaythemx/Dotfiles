@@ -12,4 +12,7 @@ nvm install node
 	
 #Install Some Brew Apps
 source "brew.sh"
+
+# Set Zsh as Default 
+chsh -s $(which zsh)
 		

@@ -7,6 +7,7 @@
 #neofetch
 #nmap
 #tree
+#z
 
 brew install zsh
 brew install zsh-syntax-highlighting
@@ -17,3 +18,4 @@ brew install lolcat
 brew install neofetch
 brew install nmap
 brew install tree
+brew install z
