@@ -7,14 +7,19 @@ For MacOs Users Only
 # Installation
 
 ## First :
- Install Oh My ZSH : [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)  
  Install Homebrew : [Homebrew](https://brew.sh)  
  Install NVM :  [Node Package Manager](https://github.com/nvm-sh/nvm)  
  Install Spaceship Prompt : [Spaceship Prompt](https://github.com/denysdovhan/spaceship-prompt/)  
 
 ## Second :
 
-    git clone https://github.com/xhaythemx/Dotfiles.git  && cd dotfiles && source bootstrap.sh
+Create a folder under ~ called Projects
+
+    mkdir ~/Projects && cd ~/Projects
+    
+Then run this 
+
+    git clone https://github.com/xhaythemx/Dotfiles.git  && cd Dotfiles && source bootstrap.sh
 
 # Terminal
 
