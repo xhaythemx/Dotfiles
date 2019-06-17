@@ -32,6 +32,7 @@ export HISTSIZE=32768;
 export HISTFILESIZE="${HISTSIZE}";
 export SAVEHIST=4096
 setopt SHARE_HISTORY
+setopt HIST_IGNORE_ALL_DUPS  # don't record dupes in history
 
 # Z plugin
 . /usr/local/etc/profile.d/z.sh
