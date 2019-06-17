@@ -1,5 +1,6 @@
 source ~/Projects/Dotfiles/.aliases
 source ~/Projects/Dotfiles/.functions
+source ~/Projects/Dotfiles/.autocompletion
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -19,6 +20,7 @@ SPACESHIP_PACKAGE_SHOW=false
 # Symbole : ▲ ∆ » ❯
 
 
+
 # prompt='%}%(12V.%F{242}%12v%f .)%(?.%F{magenta}.%F{red})${PURE_PROMPT_SYMBOL:-❯}%f'
 # PROMPT='%F{green}%* '$PROMPT
 
@@ -31,8 +33,8 @@ HISTFILE=~/.zsh_history
 export HISTSIZE=32768;
 export HISTFILESIZE="${HISTSIZE}";
 export SAVEHIST=4096
-setopt SHARE_HISTORY
-setopt HIST_IGNORE_ALL_DUPS  # don't record dupes in history
+setopt SHARE_HISTORY #share history between different instances of the shell
+setopt HIST_IGNORE_ALL_DUPS  # Remove older duplicate entries from history
 
 # Z plugin
 . /usr/local/etc/profile.d/z.sh
