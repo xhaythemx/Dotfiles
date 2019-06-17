@@ -30,9 +30,9 @@ bindkey '^[[B' history-search-forward
 
 # Save History
 HISTFILE=~/.zsh_history
-export HISTSIZE=32768;
-export HISTFILESIZE="${HISTSIZE}";
-export SAVEHIST=4096
+HISTSIZE=50000
+SAVEHIST=50000
+HISTFILESIZE="${HISTSIZE}";
 setopt SHARE_HISTORY #share history between different instances of the shell
 setopt HIST_IGNORE_ALL_DUPS  # Remove older duplicate entries from history
 
