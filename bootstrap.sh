@@ -13,6 +13,9 @@ nvm install node
 #Install Some Brew Apps
 source "brew.sh"
 
+#Add zsh to /etc/shells
+echo $(which zsh) | sudo tee -a /etc/shells
+
 # Set Zsh as Default 
 chsh -s $(which zsh)
 
