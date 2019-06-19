@@ -16,12 +16,21 @@ alias showDesktop='defaults write com.apple.finder CreateDesktop true && killall
 alias showFiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hideFiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
-
 # Custom
 alias e="((sleep 1; killall cmatrix; sleep 1; osascript -e 'quit app "Terminal"') &); cmatrix; exit"
 alias c='clear'
 alias t='tree -F -L 1 -a'
-alias nodeup='nvm install node --latest-npm --reinstall-packages-from=node'
-alias npmup='npm update -g'
 alias create='npx create-react-app'
 alias prettier='npm install --save-dev --save-exact prettier'
+alias g='gem query --local'
+alias reload='source ~/.zshrc'
+alias trash='rm -rf ~/.Trash/*'
+
+# Update 
+alias nodeup='nvm install node --latest-npm --reinstall-packages-from=node'
+alias npmup='npm update -g'
+alias cl='sudo gem update colorls'
+
+#ColorLs
+alias l='colorls --group-directories-first --almost-all'
+alias ll='colorls --group-directories-first --almost-all --gs --long' # detailed list view

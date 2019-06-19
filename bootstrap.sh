@@ -19,6 +19,9 @@ echo $(which zsh) | sudo tee -a /etc/shells
 # Set Zsh as Default 
 chsh -s $(which zsh)
 
+#Install COLORLS
+sudo gem install colorls
+
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide-time-modifier -float 0.3;killall Dock
 defaults write com.apple.Dock autohide-delay -float 0
