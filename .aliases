@@ -36,3 +36,10 @@ alias cl='sudo gem update colorls'
 #ColorLs
 alias l='colorls --group-directories-first --almost-all'
 alias ll='colorls --group-directories-first --almost-all --gs --long' # detailed list view
+
+#tmux
+alias tl='tmux list-sessions'
+alias te='tmux kill-server'
+alias tes='tmux kill-session -t'
+alias tn='tmux new -s '
+alias ta='tmux a -t '
