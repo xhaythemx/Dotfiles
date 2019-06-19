@@ -8,6 +8,7 @@
 #nmap
 #tree
 #z
+#tmux
 
 brew install zsh
 brew install zsh-syntax-highlighting
@@ -19,3 +20,4 @@ brew install neofetch
 brew install nmap
 brew install tree
 brew install z
+brew install tmux
