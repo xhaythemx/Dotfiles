@@ -25,6 +25,7 @@ alias prettier='npm install --save-dev --save-exact prettier'
 alias g='gem query --local'
 alias reload='source ~/.zshrc'
 alias trash='rm -rf ~/.Trash/*'
+alias s='du -hsc $(ls -A)'
 
 # Update 
 alias nodeup='nvm install node --latest-npm --reinstall-packages-from=node'

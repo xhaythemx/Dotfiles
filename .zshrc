@@ -45,6 +45,9 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 #neofetch
 fortune chucknorris | cowsay -f small | lolcat
 
+#Auto_CD
+setopt auto_cd 
+
 #NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm
