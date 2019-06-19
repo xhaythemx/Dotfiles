@@ -27,6 +27,7 @@ alias reload='source ~/.zshrc'
 alias trash='rm -rf ~/.Trash/*'
 alias s='du -hsc $(ls -A)'
 alias ds='find "${@:-.}" -type f -name .DS_Store -delete'
+alias music='/Users/haythem/Projects/Dotfiles/.tmux/music.sh'
 
 # Update 
 alias nodeup='nvm install node --latest-npm --reinstall-packages-from=node'
