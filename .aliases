@@ -30,6 +30,7 @@ alias ds='find "${@:-.}" -type f -name .DS_Store -delete'
 alias music='/Users/haythem/Projects/Dotfiles/.tmux/music.sh'
 alias sl='tmutil listlocalsnapshots /'
 alias sd='tmutil deletelocalsnapshots '
+alias pass='sudo xattr -rd com.apple.quarantine '
 
 # Update 
 alias nodeup='nvm install node --latest-npm --reinstall-packages-from=node'
