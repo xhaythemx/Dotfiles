@@ -10,6 +10,7 @@ For MacOs Users Only
  Install Homebrew : [Homebrew](https://brew.sh)  
  Install NVM :  [Node Package Manager](https://github.com/nvm-sh/nvm)  
  Install Spaceship Prompt : [Spaceship Prompt](https://github.com/denysdovhan/spaceship-prompt/)  
+ Install Course Hunter Downloader : [CH-Downloader](https://github.com/alekseylovchikov/ch-download)  
 
 ## Second :
 
