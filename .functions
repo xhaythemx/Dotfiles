@@ -2,20 +2,23 @@ function update() {
   WHITE="$(tput setaf 7)"
   CYAN="$(tput setaf 6)"
   YELLOW="$(tput setaf 3)"
+  GREEN="$(tput setaf 2)"
   
   echo $CYAN'Update Started '$WHITE'at'$YELLOW $(date "+%H:%M:%S") $WHITE
-  echo $CYAN'Updating Homebrew... '$WHITE
+  echo $CYAN'🔥 Updating Homebrew... '$WHITE
     brew update
     brew upgrade
     brew cask upgrade
     brew cleanup
     brew doctor
-    echo $CYAN'Updating NVM... '$WHITE
+    echo $CYAN'🔥 Updating NVM... '$WHITE
     nvmup
-    echo $CYAN'Updating Node... '$WHITE
+    echo $CYAN'🔥 Updating Node... '$WHITE
     nodeup
-    echo $CYAN'Updating NPM... '$WHITE
+    echo $CYAN'🔥 Updating NPM... '$WHITE
     npmup
+    echo
+    echo $GREEN'✅ Evreything is Up to Date'$WHITE
     nyan
  
 }
