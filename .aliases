@@ -20,7 +20,6 @@ alias hideFiles="defaults write com.apple.finder AppleShowAllFiles -bool false &
 alias e="((sleep 1; killall cmatrix; sleep 1; osascript -e 'quit app "Terminal"') &); cmatrix; exit"
 alias c='clear'
 alias t='tree -F -L 1 -a'
-alias create='npx create-react-app'
 alias prettier='npm install --save-dev --save-exact prettier'
 alias g='gem query --local'
 alias reload='source ~/.zshrc'
@@ -47,3 +46,9 @@ alias te='tmux kill-server'
 alias tes='tmux kill-session -t'
 alias tn='tmux new -s '
 alias ta='tmux a -t '
+
+#Projects
+alias create='npx create-react-app'
+alias prettier='npm install --save-dev prettier'
+alias eslint='npm install eslint --save-dev'
+alias eslint-react='npm install eslint-plugin-react --save-dev'
