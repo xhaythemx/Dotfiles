@@ -1,0 +1,10 @@
+{
+  "title": "Block Style",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "<style>\n  .red-text {\n    color: red;\n  }\n\n  p {\n    font-size: 16px;\n    font-family: monospace;\n  }\n</style>"
+    }
+  ]
+}
