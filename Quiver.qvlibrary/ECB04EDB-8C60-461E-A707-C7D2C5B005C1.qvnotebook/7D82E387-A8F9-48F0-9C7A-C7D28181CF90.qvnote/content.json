@@ -1,0 +1,9 @@
+{
+  "title": "Information",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<p style=\"margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: Monaco; color: rgb(197, 200, 198); background-color: rgb(28, 31, 33);\">When styling this is the order of what overwrite something in CSS :</p>\n<h3><font color=\"#323232\" style=\"background-color: rgb(254, 250, 0);\">!important &gt; inline &gt; id &gt; classhing&nbsp;</font></h3>"
+    }
+  ]
+}

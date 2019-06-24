@@ -1,0 +1,10 @@
+{
+  "title": "Add image",
+  "cells": [
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<img \n    src=\"https://www.your-image-source.com/your-image.jpg\" \n    alt=\"Author standing on a beach with two thumbs up.\"\n>"
+    }
+  ]
+}
