@@ -1,0 +1,9 @@
+{
+  "title": "Commands for a project",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "\n| Syntax | Description |\n| ----------- | ----------- |\n| install | Install package of a project |\n| start | Start a project  |"
+    }
+  ]
+}

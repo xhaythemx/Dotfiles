@@ -1,0 +1,9 @@
+{
+  "title": "Colors",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": " | Color | Code |\n| ----------- | ----------- |\n| Dodger Blue | #1E90FF |\n| Orchid | rgb(218, 112, 214)  |\n| raspberry | #FF007D  |\n| teal | #09A7A1  |"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Commands",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "| Syntax | Description |\n| ----------- | ----------- |\n| z | Full screen |\n| number | Change window|\n| _| horizontal Split |\n| -| Vertical split|\n| r | Reload tmux |\n| :attach -t name | attach a session |\n\n\n[**Cheatsheet Link**](https://tmuxcheatsheet.com) "
+    }
+  ]
+}

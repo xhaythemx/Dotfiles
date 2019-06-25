@@ -1,0 +1,9 @@
+{
+  "title": "Commands",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "\n| Syntax | Description |\n| ----------- | ----------- |\n| h,j,k,l | move cursor|\n| i| insert mode |\n|esc |navigate mode|\n|:qa!|exit without saving|\n|w|move to next word|\n|b|move to the beginning of the word|\n|e|move to the end of the word|\n|30i-|write - 30 times|\n|:w|save|\n|:q|quit|\n|u|undo|"
+    }
+  ]
+}

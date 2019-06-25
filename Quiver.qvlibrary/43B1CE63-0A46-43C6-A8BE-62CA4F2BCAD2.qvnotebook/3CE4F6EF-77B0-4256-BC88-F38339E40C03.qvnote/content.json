@@ -1,0 +1,9 @@
+{
+  "title": "Information",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "Use let/const so the variable be just for the function and not a global variable\n> when using var it's a global variable "
+    }
+  ]
+}

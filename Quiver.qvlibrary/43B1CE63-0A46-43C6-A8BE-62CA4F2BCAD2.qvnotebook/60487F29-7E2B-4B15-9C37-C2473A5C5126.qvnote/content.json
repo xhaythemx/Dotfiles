@@ -1,0 +1,10 @@
+{
+  "title": "Select list of items",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "<ul>\n\t<li data-time=\"1\">Flex</li>\n\t<li data-time=\"3\">Reduce</li>\n\t<li data-time=\"5\">Flex</li>\n</ul>\n\nconst item = Array.from()document.querySelectorAll('[data-time]'));\n\n# Filter only who has Flex\nconst filtred = items.filter(item => item.textContent.includes('Flex'));"
+    }
+  ]
+}

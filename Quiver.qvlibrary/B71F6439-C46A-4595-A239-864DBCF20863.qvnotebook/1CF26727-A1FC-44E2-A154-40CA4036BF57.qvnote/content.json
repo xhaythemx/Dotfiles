@@ -1,0 +1,9 @@
+{
+  "title": "Basics",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "_italic_ word would become italic  \n***italic***   italic and bold\n**bold** word would become bold  \n**_italic and bold_**  \n#Header 1\n##_Header 2_\nDouble space to break line  \n[Visit Google](www.google.com)  \n\n\nDo you want to [see something fun][a fun place]?  \nWell, do I have [the website for you][another fun place]!  \n[a fun place]: www.zombo.com\n[another fun place]: www.stumbleupon.com\n\n\n![A pretty tiger](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)\n\n![Black cat][Black]\n\n![Orange cat][Orange]\n\n[Black]: https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg\n[Orange]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png\n\nI read this interesting quote the other day:\n\n>\"Her eyes had called him and his soul had leaped at the call. To live, to err, to fall, to triumph, to recreate life out of life!\"\n\n* Flour\n* Cheese\n* Tomatoes\n\n1. Cut the cheese\n2. Slice the tomatoes\n3. Rub the tomatoes in flour\n\n* Calculus\n\t* A professor\n\t* Has no hair\n\t* Often wears green\n* Castafiore\n\t* An opera singer\n\t* Has white hair\n\t* Is possibly mentally unwell\n\n<!--Comment-->\n\n```javascript  \nif (isAwesome){\n  return true\n}\n```\n\n| Syntax | Description |\n| ----------- | ----------- |\n| Header | Title |\n| Paragraph | Text |\n\n```\n{\n  \"firstName\": \"John\",\n  \"lastName\": \"Smith\",\n  \"age\": 25\n}\n```\n\nWord\n: is a word\n\n- [x] Write the press release\n- [ ] Update the website\n- [ ] Contact the media\n\n\n\n&#9745; checkbox inside a table"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Commands",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "| Syntax | Description |\n| ----------- | ----------- |\n| init  | first thing to do in a project to send it  |\n| status | verifier l’etat de dossier de l’application|\n|add nom de fichier |ajouter le fichier |\n|add .|ajouter tout les fichiers |\n|Git commit -m «  message  »|Commit|\n|push origin master|envoyer vers GitHub |"
+    }
+  ]
+}

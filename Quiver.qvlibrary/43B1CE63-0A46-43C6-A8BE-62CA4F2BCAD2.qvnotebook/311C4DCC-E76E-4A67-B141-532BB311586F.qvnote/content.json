@@ -1,0 +1,10 @@
+{
+  "title": "Console",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "console.log(`You are ${variable} years old`);\n\n//win is an object variable\nconsole.table(win)"
+    }
+  ]
+}

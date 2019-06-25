@@ -1,0 +1,10 @@
+{
+  "title": "Functions",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "//Run a function after a delay\nsetTimeout(function(){ alert(\"Hello\"); }, 3000);\n\n//Map with arrow function\nconst names = ['haythem', 'tarek', 'jawaher'];\nconst FullName = names.map(name => {\n\treturn '${name} ben abdallah'\n});\n//Filter with arrow function\nconst ages = [23, 44,64,90,22];\nconst old = ages.filter(age => age > 50);"
+    }
+  ]
+}
