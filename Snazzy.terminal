@@ -1160,7 +1160,7 @@
 	<key>BackgroundAlphaInactive</key>
 	<real>0.0</real>
 	<key>BackgroundBlur</key>
-	<real>0.20162572552358485</real>
+	<real>0.4601156099166484</real>
 	<key>BackgroundBlurInactive</key>
 	<real>0.0</real>
 	<key>BackgroundColor</key>
@@ -1168,8 +1168,8 @@
 	YnBsaXN0MDDUAQIDBAUGKyxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
 	AAGGoKcHCBMZHSQoVSRudWxs1QkKCwwNDg8QERJcTlNDb21wb25lbnRzVU5TUkdCXE5T
 	Q29sb3JTcGFjZV8QEk5TQ3VzdG9tQ29sb3JTcGFjZVYkY2xhc3NPEDMwLjE2MTI2NjY1
-	NDcgMC4xNzE5MzUxNzA5IDAuMjAwMDAzOTgxNiAwLjc2NTk0MTExMjdPEDQwLjExOTIw
-	MDI3NDMgMC4xMjg1NTc1Nzc3IDAuMTUyNTg1NzE1MSAwLjc2NTk0MTExMjcAEAGAAoAG
+	NDcgMC4xNzE5MzUxNzA5IDAuMjAwMDAzOTgxNiAwLjkwMzYwODIwMDlPEDQwLjExOTIw
+	MDI3NDMgMC4xMjg1NTc1Nzc3IDAuMTUyNTg1NzE1MSAwLjkwMzYwODIwMDkAEAGAAoAG
 	0xQNFRYXGFVOU0lDQ1lOU1NwYWNlSUSAA4AFEAzSGg0bHFdOUy5kYXRhTxECJAAAAiRh
 	cHBsBAAAAG1udHJSR0IgWFlaIAfhAAcABwANABYAIGFjc3BBUFBMAAAAAEFQUEwAAAAA
 	AAAAAAAAAAAAAAAAAAD21gABAAAAANMtYXBwbMoalYIlfxBNOJkT1dHqFYIAAAAAAAAA
@@ -1282,7 +1282,7 @@
 	<key>ShowRepresentedURLInTitle</key>
 	<false/>
 	<key>ShowRepresentedURLPathInTabTitle</key>
-	<false/>
+	<true/>
 	<key>ShowRepresentedURLPathInTitle</key>
 	<false/>
 	<key>ShowShellCommandInTitle</key>
