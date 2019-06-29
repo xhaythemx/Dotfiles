@@ -1,0 +1,9 @@
+{
+  "title": "Remove data from array",
+  "cells": [
+    {
+      "type": "text",
+      "data": ".pop() last item<div>.shift() first item</div>"
+    }
+  ]
+}
