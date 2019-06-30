@@ -62,13 +62,13 @@ function acp() {
   CYAN="$(tput setaf 6)"
   YELLOW="$(tput setaf 3)"
   GREEN="$(tput setaf 2)"
-  echo $GREEN'Snapshots the file in preparation for versioning.............................😎'$WHITE
+  echo $GREEN'Snapshots the file in preparation for versioning..............................😎'$WHITE
   git add .
-  echo $GREEN'Recording file snapshots permanently in version history......................✍🏻'$WHITE
+  echo $GREEN'Recording file snapshots permanently in version history.......................✍🏻'$WHITE
   git commit -m "$1"
-  echo $GREEN'Uploading all local branch commits to GitHub.................................⬆'$WHITE
+  echo $GREEN'Uploading all local branch commits to GitHub..................................⬆'$WHITE
   git push
-  echo $CYAN'Evreything is Uploaded.......................................................✌🏻'$WHITE
+  echo $CYAN'Evreything is Uploaded........................................................✌🏻'$WHITE
 }
 
 function mkd() {
