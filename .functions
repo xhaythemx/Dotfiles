@@ -56,9 +56,17 @@ function nyan() {
 }
 
 function acp() {
+  WHITE="$(tput setaf 7)"
+  CYAN="$(tput setaf 6)"
+  YELLOW="$(tput setaf 3)"
+  GREEN="$(tput setaf 2)"
+  echo $CYAN'Snapshots the file in preparation for versioning..............😎'$WHITE
   git add .
+  echo $CYAN'Recording file snapshots permanently in version history.......✍🏻'$WHITE
   git commit -m "$1"
+  echo $CYAN'Uploading all local branch commits to GitHub..................⬆'$WHITE
   git push
+  echo $CYAN'Evreything is Uploaded........................................✌🏻'$WHITE
 }
 
 function mkd() {
