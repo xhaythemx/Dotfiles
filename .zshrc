@@ -25,9 +25,18 @@ SPACESHIP_PACKAGE_SHOW=false
 # prompt='%}%(12V.%F{242}%12v%f .)%(?.%F{magenta}.%F{red})${PURE_PROMPT_SYMBOL:-❯}%f'
 # PROMPT='%F{green}%* '$PROMPT
 
-# Search History Keys
-bindkey '^[[A' history-search-backward
-bindkey '^[[B' history-search-forward
+
+# Search History but with continue not just first word
+autoload -U up-line-or-beginning-search
+autoload -U down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+bindkey '^[[A' up-line-or-beginning-search
+bindkey '^[[B' down-line-or-beginning-search
+
+
+
+
 
 # Save History
 HISTFILE=~/.zsh_history
@@ -51,8 +60,7 @@ setopt auto_cd
 
 #NVM
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # Manual NVM
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # Manual NVM
 export NVM_SYMLINK_CURRENT=true
 
 

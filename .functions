@@ -74,3 +74,10 @@ function acp() {
 function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
+
+function create() {
+  npx create-react-app $1
+  cd $1
+  touch .eslintrc.json
+  npm install prettier eslint-config-prettier eslint-plugin-prettier husky lint-staged pretty-quick -D
+}

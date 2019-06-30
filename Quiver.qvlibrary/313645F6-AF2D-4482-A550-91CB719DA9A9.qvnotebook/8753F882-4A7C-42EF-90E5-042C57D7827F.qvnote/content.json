@@ -3,7 +3,7 @@
   "cells": [
     {
       "type": "markdown",
-      "data": "### 1 - touch .eslintrc.json  \n### 2 - npm install prettier eslint-config-prettier eslint-plugin-prettier -D\n###Inside .eslintrc.json\n>{\n  \"extends\": [\n    \"react-app\",\n    \"plugin:prettier/recommended\",\n    \"prettier/flowtype\",\n    \"prettier/react\",\n    \"prettier/standard\"\n  ],\n  \"rules\": {\n    \"no-console\": \"warn\"\n  }\n}  \n>\n\n###3 - Add File Watcher : Prettier (js, css) \n###at the end of package.json  \n>\"prettier\": {\n    \"singleQuote\": true\n  }\n>\n###4 - npm install --D husky lint-staged pretty-quick  \n###at the end of package.json  \n>\"husky\": {\n  \"hooks\": {\n    \"pre-commit\": \"pretty-quick --staged\"\n  }\n}\n>\n\n\n\n"
+      "data": "### 1 - touch .eslintrc.json  \n### 2 - npm install prettier eslint-config-prettier eslint-plugin-prettier husky lint-staged pretty-quick -D\n###Inside .eslintrc.json\n>{\n  \"extends\": [\n    \"react-app\",\n    \"plugin:prettier/recommended\",\n    \"prettier/flowtype\",\n    \"prettier/react\",\n    \"prettier/standard\"\n  ],\n  \"rules\": {\n    \"no-console\": \"warn\"\n  }\n}  \n>\n\n###3 - Add File Watcher : Prettier (js, css) \n \n\n\n###at the end of package.json  \n\n>\"prettier\": {\n    \"singleQuote\": true\n  },\n\"husky\": {\n  \"hooks\": {\n    \"pre-commit\": \"pretty-quick --staged\"\n  }\n}\n>\n\n\n\n"
     }
   ]
 }
