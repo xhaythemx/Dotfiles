@@ -50,6 +50,3 @@ alias ta='tmux a -t '
 
 #Projects
 alias create='npx create-react-app'
-alias prettier='npm install --save-dev prettier'
-alias eslint='npm install eslint --save-dev'
-alias eslint-react='npm install eslint-plugin-react --save-dev'

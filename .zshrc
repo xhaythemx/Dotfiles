@@ -51,7 +51,10 @@ setopt auto_cd
 
 #NVM
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # Manual NVM
+export NVM_SYMLINK_CURRENT=true
+
 
 export CLICOLOR=1
 export LSCOLORS=gxfxcxdxbxegedabagacad
