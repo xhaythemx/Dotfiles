@@ -17,16 +17,15 @@ alias hideFiles="defaults write com.apple.finder AppleShowAllFiles -bool false &
 alias e="((sleep 1; killall cmatrix; sleep 1; osascript -e 'quit app "Terminal"') &); cmatrix; exit"
 alias c='clear'
 alias t='tree -F -L 1 -a'
-alias prettier='npm install --save-dev --save-exact prettier'
-alias g='gem query --local'
+alias g='gem query --local' # Show installed Gems
 alias reload='source ~/.zshrc'
-alias s='du -hsc $(ls -A)'
-alias ds='find "${@:-.}" -type f -name .DS_Store -delete'
-alias sl='tmutil listlocalsnapshots /'
-alias sd='tmutil deletelocalsnapshots '
-alias pass='sudo xattr -rd com.apple.quarantine '
-alias chrome='open -a "Google Chrome"'
-alias zero='trash -esy'
+alias s='du -hsc $(ls -A)' # SHow size of current folder
+alias ds='find "${@:-.}" -type f -name .DS_Store -delete' # Delete .DS_Store file in current folder
+alias sl='tmutil listlocalsnapshots /' # SHow Time Machine Snapshots
+alias sd='tmutil deletelocalsnapshots ' # Delete Time Machine Snapshots
+alias pass='sudo xattr -rd com.apple.quarantine ' # Bypass GateKeeper for Apps
+alias chrome='open -a "Google Chrome"' # open chrome from terminal
+alias zero='trash -esy' # Clean Trash
 
 # Update 
 alias nodeup='nvm install node --latest-npm --reinstall-packages-from=node'
