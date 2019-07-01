@@ -7,10 +7,11 @@ For MacOs Users Only
 # Installation
 
 ## First :
- Install Homebrew : [Homebrew](https://brew.sh)  
- Install NVM :  [Node Package Manager](https://github.com/nvm-sh/nvm)  
- Install Spaceship Prompt : [Spaceship Prompt](https://github.com/denysdovhan/spaceship-prompt/)  
- Install Course Hunter Downloader : [CH-Downloader](https://github.com/alekseylovchikov/ch-download)  
+ Install [Homebrew](https://brew.sh)  
+ Install [Node Package Manager](https://github.com/nvm-sh/nvm)  
+ Install (https://github.com/denysdovhan/spaceship-prompt/)  
+ Install [spotify-cli-mac](https://www.npmjs.com/package/spotify-cli-mac)  
+ Install [CH-Downloader](https://github.com/alekseylovchikov/ch-download)  
 
 ## Second :
 
