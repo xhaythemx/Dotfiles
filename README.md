@@ -9,7 +9,7 @@ For MacOs Users Only
 ## First :
  Install [Homebrew](https://brew.sh)  
  Install [Node Package Manager](https://github.com/nvm-sh/nvm)  
- Install (https://github.com/denysdovhan/spaceship-prompt/)  
+ Install [Spaceship Prompt](https://github.com/denysdovhan/spaceship-prompt/)  
  Install [spotify-cli-mac](https://www.npmjs.com/package/spotify-cli-mac)  
  Install [CH-Downloader](https://github.com/alekseylovchikov/ch-download)  
 
