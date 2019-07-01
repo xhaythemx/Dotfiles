@@ -1,27 +1,36 @@
+# Colors used in functions
+
+RED="$(tput setaf 1)"
+GREEN="$(tput setaf 2)"
+YELLOW="$(tput setaf 3)"
+CYAN="$(tput setaf 6)"
+WHITE="$(tput setaf 7)"
+BOLD="$(tput bold)"
+NOCOLOR="$(tput sgr0)"
+
+# Update hoembrew, nvm, node and npm
+
 function update() {
-  WHITE="$(tput setaf 7)"
-  CYAN="$(tput setaf 6)"
-  YELLOW="$(tput setaf 3)"
-  GREEN="$(tput setaf 2)"
-  
   echo $CYAN'Update Started '$WHITE'at'$YELLOW $(date "+%H:%M:%S") $WHITE
   echo $CYAN'🔥 Updating Homebrew... '$WHITE
-    brew update
-    brew upgrade
-    brew cask upgrade
-    brew cleanup
-    brew doctor
-    echo $CYAN'🔥 Updating NVM... '$WHITE
-    nvmup
-    echo $CYAN'🔥 Updating Node... '$WHITE
-    nodeup
-    echo $CYAN'🔥 Updating NPM... '$WHITE
-    npmup
-    echo
-    echo $GREEN'✅ Evreything is Up to Date'$WHITE
-    nyan
+  brew update
+  brew upgrade
+  brew cask upgrade
+  brew cleanup
+  brew doctor
+  echo $CYAN'🔥 Updating NVM... '$WHITE
+  nvmup
+  echo $CYAN'🔥 Updating Node... '$WHITE
+  nodeup
+  echo $CYAN'🔥 Updating NPM... '$WHITE
+  npmup
+  echo
+  echo $GREEN'✅ Evreything is Up to Date'$WHITE
+  nyan
  
 }
+
+# Update NVM
 
 function nvmup() {
   cd ~/.nvm
@@ -31,16 +40,9 @@ function nvmup() {
   cd
 }
 
+# Just a cute cat 
 
 function nyan() {
-  RED="$(tput setaf 1)"
-  GREEN="$(tput setaf 2)"
-  YELLOW="$(tput setaf 3)"
-  CYAN="$(tput setaf 6)"
-  WHITE="$(tput setaf 7)"
-  BOLD="$(tput bold)"
-  NOCOLOR="$(tput sgr0)"
-
   echo
   echo -en $RED'-_-_-_-_-_-_-_'
   echo -e $NOCOLOR$BOLD$WHITE',------,'$NOCOLOR
@@ -51,17 +53,11 @@ function nyan() {
   echo -en $CYAN'-_-_-_-_-_-_-'
   echo -e $NOCOLOR$BOLD$WHITE'""  ""'$NOCOLOR
   echo
-
- 
 }
 
-
+# Add, Commit and Push to Github
 
 function acp() {
-  WHITE="$(tput setaf 7)"
-  CYAN="$(tput setaf 6)"
-  YELLOW="$(tput setaf 3)"
-  GREEN="$(tput setaf 2)"
   echo $GREEN'Snapshots the file in preparation for versioning..............................😎'$WHITE
   git add .
   echo $GREEN'Recording file snapshots permanently in version history.......................🧐'$WHITE
@@ -75,9 +71,16 @@ function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
 
+# New React Project
 function create() {
   npx create-react-app $1
   cd $1
   touch .eslintrc.json
   npm install prettier eslint-config-prettier eslint-plugin-prettier husky lint-staged pretty-quick -D
+}
+
+# Show Local and Public IP Adresses 
+function ip() {
+ printf $YELLOW'My Public IP is : '$WHITE; dig +short myip.opendns.com @resolver1.opendns.com
+ printf $YELLOW'My Local IP is  : '$WHITE; ipconfig getifaddr en0
 }
