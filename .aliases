@@ -26,6 +26,7 @@ alias sd='tmutil deletelocalsnapshots ' # Delete Time Machine Snapshots
 alias pass='sudo xattr -rd com.apple.quarantine ' # Bypass GateKeeper for Apps
 alias chrome='open -a "Google Chrome"' # open chrome from terminal
 alias zero='trash -esy' # Clean Trash
+alias music='spotify ' # use music to control spotify
 
 # Update 
 alias nodeup='nvm install node --latest-npm --reinstall-packages-from=node'
@@ -43,9 +44,4 @@ alias tes='tmux kill-session -t'
 alias tn='tmux new -s '
 alias ta='tmux a -t '
 
-#Spotify from terminal (Install spotify-cli-mac  from npm)
-alias i='spotify info'
-alias n='spotify next'
-alias b='spotify back'
-alias a='spotify r'
 
