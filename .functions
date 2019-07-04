@@ -81,6 +81,8 @@ function create() {
 
 # Show Local and Public IP Adresses 
 function ip() {
- printf $YELLOW'My Public IP is : '$WHITE; dig +short myip.opendns.com @resolver1.opendns.com
+  
+#  printf $YELLOW'My Public IP is : '$WHITE; dig +short myip.opendns.com @resolver1.opendns.com
+ printf $YELLOW'My Public IP is : '$WHITE; curl ipecho.net/plain ; echo
  printf $YELLOW'My Local IP is  : '$WHITE; ipconfig getifaddr en0
 }
