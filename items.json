@@ -98,15 +98,6 @@
   
   { "type": "volumeUp", "width": 34, "align": "right" },
   { "type": "pomodoro","bordered": false,"align": "right","workTime": 10,"restTime": 10},
-  {
-    "type": "weather",
-    "refreshInterval": 60,
-    "units": "metric",
-    "align": "right",
-    "bordered": false,
-    "icon_type": "images",
-    "api_key": "9a9bd094da90029c0e6aec463cf253b2"
-  },
   { "type": "battery", "align": "right", "bordered": false },
   { "type": "timeButton","formatTemplate": "E d MMM HH:mm", "align": "right", "bordered": false, "timeZone": "DFT"}
  
