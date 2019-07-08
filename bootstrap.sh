@@ -1,12 +1,13 @@
 #Disables the system login message
 touch ~/.hushlogin
 
-#Link with the Home directory
+#Link Files
 ln -sv ~/Projects/dotfiles/.zshrc ~
 ln -sv ~/Projects/dotfiles/.vimrc ~
 ln -sv ~/Projects/dotfiles/.zsh_history ~
 ln -sv ~/Projects/dotfiles/.tmux.conf ~
 ln -sv ~/Projects/dotfiles/.tmux ~
+ln -sv ~/Projects/Dotfiles/items.json /Users/haythem/Library/Application\ Support/MTMR/ 
 
 
 #install the Last version of Node
