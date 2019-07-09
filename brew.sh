@@ -9,7 +9,7 @@
 #tree
 #z
 #tmux
-# Installation
+
 brew install zsh
 brew install zsh-syntax-highlighting
 brew install cmatrix
