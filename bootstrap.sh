@@ -7,7 +7,7 @@ ln -sv ~/Projects/dotfiles/.vimrc ~
 ln -sv ~/Projects/dotfiles/.zsh_history ~
 ln -sv ~/Projects/dotfiles/.tmux.conf ~
 ln -sv ~/Projects/dotfiles/.tmux ~
-ln -sv ~/Projects/Dotfiles/items.json /Users/haythem/Library/Application\ Support/MTMR/ 
+#ln -sv ~/Projects/Dotfiles/items.json /Users/haythem/Library/Application\ Support/MTMR/ 
 
 
 #install the Last version of Node
