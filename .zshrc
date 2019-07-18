@@ -59,9 +59,10 @@ fortune chucknorris | cowsay -f small | lolcat
 setopt auto_cd 
 
 #NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # Manual NVM
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 export NVM_SYMLINK_CURRENT=true
+
+
 
 
 export CLICOLOR=1
